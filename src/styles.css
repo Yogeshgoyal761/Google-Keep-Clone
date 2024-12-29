@@ -1,0 +1,44 @@
+/* src/styles.css */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .note {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin: 16px;
+    padding: 16px;
+    width: 300px;
+  }
+  
+  button {
+    background-color: #f5ba13;
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #e09b05;
+  }
+  
+  form {
+    margin: 16px;
+  }
+  
+  input, textarea {
+    display: block;
+    margin-bottom: 8px;
+    padding: 8px;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    background-color: #f4f4f4;
+  }
+  
+  input:focus, textarea:focus {
+    outline: none;
+  }
+  
